@@ -1,0 +1,12 @@
+{
+    "token": "MTM1ODUwNTU4NTMyMjIzMzk5Nw.GEdIPU.CLNywDIpHOhyLQVGFdAFL8BW1ufyxAZCgcjzYg",
+    "prefix": "*",
+    "verify_role_id": 1352280800338513970,
+    "unverified_role_id": 1353642011835760671,
+  "verify_channel_id": 1353642084296429668,
+    "messages": {
+      "error": "⚠️ Ada error saat menjalankan perintah. Cek log untuk detailnya.",
+      "welcome": "Halo, {user}, selamat datang di Dusun Pixel!"
+    }
+  }
+  
