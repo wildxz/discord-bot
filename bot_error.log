@@ -1,0 +1,8 @@
+[ERROR] Ignoring exception in on_guild_channel_create
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Asus\Documents\bot\discord\cogs\support.py", line 10, in on_guild_channel_create
+    if isinstance(channel, discord.TextChannel) and "ticket" in channel.name.lower():
+                           ^^^^^^^
+NameError: name 'discord' is not defined

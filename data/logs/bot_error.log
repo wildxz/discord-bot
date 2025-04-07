@@ -1,0 +1,39 @@
+[2025-04-07 01:40:53,443] [INFO] logging in using static token
+[2025-04-07 01:40:55,089] [INFO] Shard ID None has connected to Gateway (Session ID: 1ad33aa29a58095d70a5b5eca40a26bf).
+[2025-04-07 01:41:12,022] [ERROR] Ignoring exception in command sepibgt
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\ext\commands\core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\Documents\bot\discord\bot.py", line 25, in sepibgt
+    await ctx.send(f"PALALU SEPI {ctx.author.mentio}!")
+                                  ^^^^^^^^^^^^^^^^^
+AttributeError: 'Member' object has no attribute 'mentio'. Did you mean: 'mention'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\ext\commands\bot.py", line 1366, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\Asus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\ext\commands\core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\ext\commands\core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'Member' object has no attribute 'mentio'
+[INFO] logging in using static token
+[INFO] Shard ID None has connected to Gateway (Session ID: e6119a4b8e6a793c268275d12ba7ffdc).
+[INFO] logging in using static token
+[INFO] Shard ID None has connected to Gateway (Session ID: 70a8a32491ea577ba37f3250c18f96c7).
+[ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "verifysetup" is not found
+[ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "verifysetup" is not found
+[INFO] logging in using static token
+[INFO] Shard ID None has connected to Gateway (Session ID: f2277d67d0d3b702ff9e4163758d9c65).
+[ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "verifysetup" is not found
+[INFO] logging in using static token
+[INFO] Shard ID None has connected to Gateway (Session ID: 75962b4dab90f108d9f6c89a443f4552).
+[ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "verifysetup" is not found
